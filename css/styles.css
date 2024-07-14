@@ -612,9 +612,18 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #4D5AE5
 
 
 }
+
+.subscribe-form  {
+    display: flex;
+    gap: 24px;
+
+}
+
+
 
 .social-icon-item-footer a:hover,
 .social-icon-item-footer a:focus {
