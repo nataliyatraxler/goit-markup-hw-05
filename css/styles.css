@@ -590,6 +590,7 @@ img {
 }
 
 /* Стилі для футера */
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -598,7 +599,7 @@ img {
 .footer .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -682,7 +683,7 @@ img {
     gap: 24px;
 }
 
-.footer-subscribe p {
+.subscribe-title {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -693,15 +694,17 @@ img {
 
 .subscribe-form {
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 
-.subscribe-form label {
+.subscribe-label {
     font-size: 14px;
     margin-right: 8px;
+    color: #ffffff;
 }
 
-.subscribe-form input {
+.subscribe-input {
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -710,11 +713,11 @@ img {
     color: #ffffff;
 }
 
-.subscribe-form input[type="email"]::placeholder {
+.subscribe-input::placeholder {
     color: #ffffff;
 }
 
-.subscribe-form input:focus {
+.subscribe-input:focus {
     border-color: #4d5ae5;
     outline: none;
 }
@@ -735,7 +738,6 @@ img {
 .subscribe-button:focus {
     background-color: #404bbf;
 }
-
 
 
 /* Modal Styles */
