@@ -591,22 +591,34 @@ img {
 
 /* Стилі для футера */
 
-/* Стилі для футера */
+.footer-subscribe p {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.social-icon-item-footer a:hover,
+.social-icon-item-footer a:focus {
+    background-color: #31d0aa;
+}
 
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+   
 }
 
 .footer .container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .footer-content {
-    margin-right: 120px;
+    margin-right: 120;
+
 }
 
 .footer-logo {
@@ -630,13 +642,12 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #F4F4FD;
     max-width: 264px;
+    
 }
 
-.footer-social {
-    margin-right: 120px;
-}
+
 
 .footer-social-text {
     font-size: 16px;
@@ -644,15 +655,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
-.social-icons-footer {
-    display: flex;
-    gap: 16px;
-    padding: 0;
-    list-style: none;
-}
+
 
 .social-icon-item-footer {
     display: flex;
@@ -679,71 +685,58 @@ img {
     fill: #ffffff;
 }
 
-.footer-subscribe {
+:root {
+    --icon-fill-color: #f4f4fd;
+}
+
+.icon-footer {
+    width: 24px;
+    height: 24px;
+    fill: var(--icon-fill-color);
+}
+
+.footer .social-icon:hover .icon {
+    fill: #404bbf;
+   
+}
+
+
+.social-icons-footer {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    justify-content: center;
+    gap: 16px;
+    
+    padding: 0;
+    
+    list-style: none;
+    
 }
 
-.subscribe-title {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.subscribe-form {
+.social-icon-item-footer {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
 }
 
-.subscribe-label {
-    font-size: 14px;
-    margin-right: 8px;
-    color: #ffffff;
-}
-
-.subscribe-input {
-    width: 264px;
+.social-icon-footer {
+    width: 40px;
     height: 40px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-    padding: 0 8px;
-    color: #ffffff;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-}
-
-.subscribe-input::placeholder {
-    color: #ffffff;
-}
-
-.subscribe-input:focus {
-    border-color: #4d5ae5;
-    outline: none;
-}
-
-.subscribe-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
     background-color: #4d5ae5;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: block;
 }
 
-.subscribe-button:hover,
-.subscribe-button:focus {
+.social-icon-footer:hover {
     background-color: #404bbf;
 }
+.footer-content {
+    margin-right: 120px;
+}
+
+
+
 
 
 /* Modal Styles */
