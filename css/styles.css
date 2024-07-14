@@ -591,6 +591,8 @@ img {
 
 /* Стилі для футера */
 
+/* Стилі для футера */
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -711,6 +713,10 @@ img {
     background-color: transparent;
     padding: 0 8px;
     color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
 }
 
 .subscribe-input::placeholder {
