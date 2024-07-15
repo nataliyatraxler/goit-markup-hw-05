@@ -847,6 +847,7 @@ img {
 .modal-form .form-group {
     
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .modal-form .form-group label {
