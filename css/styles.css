@@ -600,21 +600,26 @@ img {
     color: #ffffff;
 }
 .subscribe-button {
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    color: #ffffff;
-    cursor: pointer;
-    border: none;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    color: #ffffff;
     min-width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4D5AE5
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4D5AE5;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: #404bbf;
 }
 
 .subscribe-form  {
