@@ -905,6 +905,9 @@ img {
 
 .input-wrapper {
     position: relative;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+
 }
 
 .input-wrapper .icon {
@@ -953,6 +956,11 @@ img {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    padding-left: 38px;
+    outline: transparent;
+    border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form .form-group input:focus,
