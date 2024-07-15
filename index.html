@@ -331,10 +331,16 @@
                 </ul>
             </div>
             <div class="footer-subscribe">
-                <p>Subscribe</p>
+                <p class="subscribe-title">Subscribe</p>
                 <form class="subscribe-form">
-                    <input type="email" placeholder="E-mail" />
-                    <button type="submit" class="subscribe-button">Subscribe</button>
+                    <label for="email" class="subscribe-label">Email</label>
+                    <input type="email" id="email" name="email" class="subscribe-input" placeholder="E-mail" required />
+                    <button type="submit" class="subscribe-button">
+                        Subscribe
+                        <svg class="subscribe-icon" width="16" height="16">
+                            <use href="./images/icons.svg#send"></use>
+                        </svg>
+                    </button>
                 </form>
             </div>
         </div>
@@ -345,52 +351,52 @@
     <div class="backdrop">
         <div class="modal">
             <button class="close-button">
-                <svg class="close-icon">
-                    <use href="./images/icons.svg#ellipse"></use>
-                    <use href="./images/icons.svg#vector"></use>
+                <svg class="close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <h2 class="modal-title">Leave your contacts and we will call you back</h2>
             <form class="modal-form">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <div class="input-wrapper">
-                        <svg class="icon">
+                    <div class="input-wrapper"> 
+                        <input type="text" id="name" name="name" required>
+                        <svg class="icon" width="16" height="16"> 
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
-                        <input type="text" id="name" placeholder=" " required />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone</label>
-                    <div class="input-wrapper">
-                        <svg class="icon">
+                    <div class="input-wrapper"> 
+                        <input type="tel" id="phone" name="phone" required>
+                        <svg class="icon" width="16" height="16"> 
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
-                        <input type="tel" id="phone" placeholder=" " required />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <div class="input-wrapper">
-                        <svg class="icon">
+                    <div class="input-wrapper"> 
+                        <input type="email" id="email" name="email" required>
+                        <svg class="icon" width="16" height="16"> 
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
-                        <input type="email" id="email" placeholder=" " required />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="comment">Comment</label>
-                    <textarea id="comment" placeholder="Text input"></textarea>
+                    <div class="input-wrapper"> 
+                        <textarea id="comment" name="comment" required></textarea>
+                    </div>
                 </div>
                 <div class="form-group checkbox-group">
-                    <input type="checkbox" id="terms" required />
+                    <input type="checkbox" id="terms" name="terms" required>
                     <label for="terms">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
                 </div>
                 <button type="submit" class="modal-submit-button">Send</button>
             </form>
         </div>
-    </div>
 
     <!-- JavaScript for Modal -->
     <script>

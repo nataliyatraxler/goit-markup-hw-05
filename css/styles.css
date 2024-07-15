@@ -784,11 +784,11 @@ img {
 
 .modal {
     background-color: #fff;
-    padding: 20px;
+    padding: 72px 24px 24px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    width: 100%;
+    min-width: 408px;
+    
     position: relative;
     text-align: center;
 }
@@ -801,8 +801,8 @@ img {
     right: 8px;
     cursor: pointer;
     padding: 0;
-    width: 24px;
-    height: 24px;
+    width: 8px;
+    height: 8px;
 }
 
 .close-icon {
@@ -837,15 +837,19 @@ img {
 }
 
 .modal-form .form-group {
-    margin-bottom: 15px;
+    
     text-align: left;
 }
 
 .modal-form .form-group label {
     display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
     margin-bottom: 5px;
+    letter-spacing: 0.04em;
     font-size: 14px;
-    color: #333;
+    color: #8E8F99;
 }
 
 .input-wrapper {
@@ -872,6 +876,24 @@ img {
     fill: #4d5ae5;
 }
 
+
+.input-wrapper input:focus,
+.input-wrapper textarea:focus {
+    /* Стилі для фокусованих полів вводу */
+    border-color: #4d5ae5;
+    /* Колір рамки при фокусі */
+    outline: none;
+}
+
+.input-wrapper input:focus+.icon,
+.input-wrapper input:valid+.icon,
+.input-wrapper textarea:focus+.icon,
+.input-wrapper textarea:valid+.icon {
+    /* Стилі для іконок при фокусі на полі вводу */
+    fill: #4d5ae5;
+    /* Колір іконки при фокусі */
+}
+
 .modal-form .form-group input,
 .modal-form .form-group textarea {
     width: calc(100% - 16px);
@@ -893,12 +915,26 @@ img {
     align-items: center;
     justify-content: flex-start;
     margin-top: 10px;
-    margin-left: 8px;
+    margin-bottom: 24px;
     
+    
+}
+
+.input-wrapper input:focus+.icon,
+.input-wrapper input:valid+.icon,
+.input-wrapper textarea:focus+.icon,
+.input-wrapper textarea:valid+.icon {
+    fill: #4d5ae5;
 }
 
 .modal-form .form-group.checkbox-group input {
     margin-right: 10px;
+}
+
+.input-wrapper input:focus,
+.input-wrapper textarea:focus {
+    border-color: #4d5ae5;
+    outline: none;
 }
 
 .modal-form .form-group.checkbox-group label {
