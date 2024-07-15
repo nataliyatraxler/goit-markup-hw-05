@@ -805,8 +805,8 @@ img {
     background: none;
     border: none;
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 24px;
+    right: 24px;
     cursor: pointer;
     padding: 0;
     width: 8px;
@@ -815,8 +815,8 @@ img {
 
 .close-icon {
     position: relative;
-    width: 24px;
-    height: 24px;
+    width: 8px;
+    height: 8px;
 }
 
 .close-icon use {
