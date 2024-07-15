@@ -771,12 +771,11 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(0, 0, 0, 0.5);
     display: none;
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    background-color: rgba(46, 47, 66, 0.4)
 }
 
 .backdrop.is-open {
@@ -785,48 +784,31 @@ img {
 
 .modal {
     background-color: #fff;
-    padding: 72px 24px 24px;
+    padding: 20px;
     border-radius: 8px;
-    
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 408px;
-    min-height: 584px;
-    background: #fcfcfc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    position: relative;
     text-align: center;
-    position: absolute;
-    border-radius: 4px;
-    top: 50%;
-    left: 50%;
-    
 }
 
 .close-button {
     background: none;
     border: none;
     position: absolute;
-    top: 24px;
-    right: 24px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
+    top: 8px;
+    right: 8px;
     cursor: pointer;
     padding: 0;
-   
+    width: 24px;
+    height: 24px;
 }
 
 .close-icon {
     position: relative;
-    width: 8px;
-    height: 8px;
+    width: 24px;
+    height: 24px;
 }
 
 .close-icon use {
@@ -841,7 +823,6 @@ img {
 .close-button:hover .close-icon use,
 .close-button:focus .close-icon use {
     fill: #404bbf;
-    border: none;
 }
 
 .modal-title {
@@ -856,20 +837,15 @@ img {
 }
 
 .modal-form .form-group {
-    
+    margin-bottom: 15px;
     text-align: left;
-    margin-bottom: 8px;
 }
 
 .modal-form .form-group label {
     display: block;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
     margin-bottom: 5px;
-    letter-spacing: 0.04em;
     font-size: 14px;
-    color: #8E8F99;
+    color: #333;
 }
 
 .input-wrapper {
@@ -896,24 +872,6 @@ img {
     fill: #4d5ae5;
 }
 
-
-.input-wrapper input:focus,
-.input-wrapper textarea:focus {
-    /* Стилі для фокусованих полів вводу */
-    border-color: #4d5ae5;
-    /* Колір рамки при фокусі */
-    outline: none;
-}
-
-.input-wrapper input:focus+.icon,
-.input-wrapper input:valid+.icon,
-.input-wrapper textarea:focus+.icon,
-.input-wrapper textarea:valid+.icon {
-    /* Стилі для іконок при фокусі на полі вводу */
-    fill: #4d5ae5;
-    /* Колір іконки при фокусі */
-}
-
 .modal-form .form-group input,
 .modal-form .form-group textarea {
     width: calc(100% - 16px);
@@ -935,26 +893,12 @@ img {
     align-items: center;
     justify-content: flex-start;
     margin-top: 10px;
-    margin-bottom: 24px;
+    margin-left: 8px;
     
-    
-}
-
-.input-wrapper input:focus+.icon,
-.input-wrapper input:valid+.icon,
-.input-wrapper textarea:focus+.icon,
-.input-wrapper textarea:valid+.icon {
-    fill: #4d5ae5;
 }
 
 .modal-form .form-group.checkbox-group input {
     margin-right: 10px;
-}
-
-.input-wrapper input:focus,
-.input-wrapper textarea:focus {
-    border-color: #4d5ae5;
-    outline: none;
 }
 
 .modal-form .form-group.checkbox-group label {
@@ -974,16 +918,9 @@ img {
     text-decoration: underline;
 }
 
-
 .modal-submit-button {
-    Padding: 16px,32px,16px,32px;
+    padding: 10px 20px;
     font-size: 16px;
-    gap: 10px;
-    width: 169px;
-    height: 56px;
-    top: 584px;
-    left: 635px;
-
     cursor: pointer;
     background-color: #4d5ae5;
     color: white;
@@ -993,10 +930,8 @@ img {
     display: block;
     margin: 20px auto 0;
 }
-    
 
 .modal-submit-button:hover,
 .modal-submit-button:focus {
     background-color: #404bbf;
-    border: none;
 }
