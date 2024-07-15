@@ -49,6 +49,15 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    
+    justify-content: space-between;
+       
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+        
+    align-items: flex-start;
+     
 }
 
 .section {
@@ -594,14 +603,17 @@ img {
 /* Стилі для форми підписки у футері */
 .footer-subscribe {
     margin-top: 20px;
-        /* Відстань між соціальними іконками та формою підписки */
+        
     display: flex;
     flex-direction: column;
-        /* Вирівнювання елементів вертикально */
+       
     align-items: flex-start;
     gap: 8px;
-        /* Відстань між заголовком і формою */
+        
     align-items: center;
+  
+    gap: 16px;
+          
    
 }
 
@@ -614,10 +626,13 @@ img {
     
 }
 .subscribe-title {
-    margin: 0;
-    color: #ffffff;
     font-size: 16px;
+    left: 0;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #FFFFFF;
 }
 
 .subscribe-form input {
@@ -692,6 +707,8 @@ img {
 
 .footer-content {
     margin-right: 120;
+    max-width: 300px;
+       
 
 }
 
@@ -732,7 +749,10 @@ img {
     color: #FFFFFF;
 }
 
-
+.footer-social {
+    margin-right: 64px;
+   
+}
 
 .social-icon-item-footer {
     display: flex;
