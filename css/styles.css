@@ -687,7 +687,22 @@ img {
     /* Додамо відступ для іконки всередині кнопки */
 }
 
-
+.subscribe-input  {
+    width: 264px;
+    height: 40px;
+    font-size: 12px;
+    background-color: transparent;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    border: 1px solid #ffffff
+    
+    
+    
+    
+ }
 
 .social-icon-item-footer a:hover,
 .social-icon-item-footer a:focus {
