@@ -591,13 +591,33 @@ img {
 
 /* Стилі для футера */
 
-.footer-subscribe p {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+/* Стилі для форми підписки у футері */
+.footer-subscribe {
+    margin-top: 20px;
+        /* Відстань між соціальними іконками та формою підписки */
+    display: flex;
+    flex-direction: column;
+        /* Вирівнювання елементів вертикально */
+    align-items: flex-start;
+    gap: 8px;
+        /* Відстань між заголовком і формою */
+    align-items: center;
+   
+}
+
+.subscribe-form {
+    display: flex;
+   
+    align-items: center;
+   
+    gap: 16px;
+    
+}
+.subscribe-title {
+    margin: 0;
     color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .subscribe-form input {
@@ -605,6 +625,20 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    background-color: #2e2f42;
+        /* Колір, який відповідає фону футера */
+    border: 1px solid #ffffff;
+        /* Задаємо бордюр для поля */
+    width: 264px;
+        /* Задаємо ширину поля */
+    height: 40px;
+        /* Задаємо висоту поля */
+    display: flex;
+        /* Вирівнювання елементів горизонтально */
+    align-items: center;
+        /* Вирівнювання елементів по вертикалі */
+    gap: 16px;
+        /* Відстань між полем введення і кнопкою */
 }
 
 .subscribe-form input::placeholder {
@@ -624,18 +658,18 @@ img {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-button:hover,
 .subscribe-button:focus {
     background-color: #404bbf;
+    color: #ffffff;
 }
 
-.subscribe-form  {
-    display: flex;
-    gap: 24px;
-
+.subscribe-icon {
+    margin-left: 8px;
+    /* Додамо відступ для іконки всередині кнопки */
 }
 
 
