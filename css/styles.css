@@ -50,14 +50,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     
-    justify-content: space-between;
-       
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-        
-    align-items: flex-start;
-     
+    
 }
 
 .section {
