@@ -980,6 +980,7 @@ img {
 
 .modal-form .form-group.checkbox-group input {
     margin-right: 10px;
+    margin-bottom: 16px
 }
 
 .input-wrapper input:focus,
