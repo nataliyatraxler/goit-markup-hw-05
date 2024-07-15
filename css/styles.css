@@ -599,11 +599,19 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.subscribe-button {
+
+.subscribe-form input {
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+}
+
+.subscribe-form input::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-button {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -612,8 +620,10 @@ img {
     font-size: 16px;
     font-weight: 500;
     background-color: #4D5AE5;
-    border: none;
+    color: #ffffff;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
     transition: background-color 0.3s;
 }
 
