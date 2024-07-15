@@ -1049,9 +1049,9 @@ img {
 
 .input-wrapper input:focus,
 .input-wrapper textarea:focus {
-    /* Стилі для фокусованих полів вводу */
+   
     border-color: #4d5ae5;
-    /* Колір рамки при фокусі */
+   
     outline: none;
 }
 
@@ -1059,9 +1059,9 @@ img {
 .input-wrapper input:valid+.icon,
 .input-wrapper textarea:focus+.icon,
 .input-wrapper textarea:valid+.icon {
-    /* Стилі для іконок при фокусі на полі вводу */
+    
     fill: #4d5ae5;
-    /* Колір іконки при фокусі */
+  
 }
 
 
@@ -1094,11 +1094,11 @@ img {
 .modal-form .form-group input,
 .modal-form .form-group textarea {
     width: calc(100% - 16px);
-    padding: 8px;
+    padding: 8px 16px;
     margin: 0 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 12px;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 38px;
