@@ -765,6 +765,35 @@ img {
 
 
 /* Modal Styles */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.checkbox-group a {
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.checkbox-group a:hover {
+    text-decoration: underline;
+}
 .backdrop {
     position: fixed;
     top: 0;
