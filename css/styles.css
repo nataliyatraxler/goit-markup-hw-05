@@ -981,8 +981,8 @@ img {
     height: 100%;
 }
 
-.close-button:hover .close-icon use,
-.close-button:focus .close-icon use {
+.close-button:hover,
+.close-button:focus {
     border: none;
     fill: #404bbf
    
