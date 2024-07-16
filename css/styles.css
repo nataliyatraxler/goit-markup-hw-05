@@ -942,6 +942,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 24px;
+    right: 24px;
 
     
    
