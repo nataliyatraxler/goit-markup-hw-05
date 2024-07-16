@@ -1009,6 +1009,12 @@ img {
     margin-bottom: 16px;
 }
 
+.modal-label  {
+    font-size: 12px;
+    line-height: 1.17;
+
+ }
+
 .modal-form .form-group {
     
     text-align: left;
@@ -1179,7 +1185,7 @@ img {
     padding: 16px,32px,16px,32px;
     font-size: 16px;
     gap: 10px;
-    
+    font-weight: 500;
     min-width: 169px;
     height: 56px;
     top: 584px;
