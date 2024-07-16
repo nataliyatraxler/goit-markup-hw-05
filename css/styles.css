@@ -1048,6 +1048,12 @@ img {
     fill: #ccc;
 }
 
+.modal-form .icon:hover,
+.modal-form .icon:focus {
+    fill: #ffffff
+
+}
+
 .input-wrapper input {
     padding-left: 40px;
     width: 100%;
@@ -1070,6 +1076,8 @@ img {
    
     outline: none;
 }
+
+
 
 .input-wrapper input:focus+.icon,
 .input-wrapper input:valid+.icon,
