@@ -1019,6 +1019,7 @@ img {
     
     text-align: left;
     margin-bottom: 8px;
+    height: 40px
 }
 
 .modal-form .form-group label {
@@ -1126,7 +1127,7 @@ img {
     
     
     border: 1px solid rgba(46, 47, 66, 0.4);
-    
+    padding-left: 38px;
     outline: transparent;
     border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
