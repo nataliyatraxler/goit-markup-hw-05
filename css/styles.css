@@ -1038,7 +1038,7 @@ img {
 
 
 .modal-form .icon {
-    position: relative;
+    position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -1173,6 +1173,10 @@ img {
     line-height: normal;
    
 }
+
+
+
+
 
 .modal-form .form-group.checkbox-group a {
     color: #4d5ae5;
