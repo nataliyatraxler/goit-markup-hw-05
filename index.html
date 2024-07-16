@@ -390,20 +390,22 @@
                     <textarea id="user-comment" name="user-comment" class="textarea-input" placeholder="Text input"
                         required></textarea>
                 </div>
-                <div class="form-group checkbox-group">
-                    <input type="checkbox" value="true" id="user-privacy" class="visually-hidden" name="user-privacy"
-                        required>
-                    <span class="checkbox-icon">
-                        <svg class="icon-vector" width="10" height="8">
-                            <use href="./images/icons.svg#icon-vector"></use>
-                        </svg>
-                    </span>
-                    <label for="user-privacy" class="label-text">
-                        I accept the terms and conditions of the <a href="#">Privacy Policy</a>
-                    </label>
-                </div>
-                <button type="submit" class="modal-submit-button">Send</button>
-            </form>
+                <form class="subscribe-form">
+                    <div class="form-group checkbox-group">
+                        <label for="user-privacy" class="custom-label">
+                            <input type="checkbox" value="true" id="user-privacy" class="visually-hidden" name="user-privacy" required>
+                            <span class="checkbox-icon">
+                                <svg class="icon-vector" width="10" height="8">
+                                    <use href="./images/icons.svg#icon-vector"></use>
+                                </svg>
+                            </span>
+                            <span class="label-text">
+                                I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+                            </span>
+                        </label>
+                    </div>
+                    <button type="submit" class="modal-submit-button">Send</button>
+                </form>
         </div>
     </div>
 
