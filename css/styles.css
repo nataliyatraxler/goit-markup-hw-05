@@ -633,20 +633,20 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-    background-color: #2e2f42;
-        /* Колір, який відповідає фону футера */
+   
+        
     border: 1px solid #ffffff;
-        /* Задаємо бордюр для поля */
+      
     width: 264px;
-        /* Задаємо ширину поля */
+      
     height: 40px;
-        /* Задаємо висоту поля */
+        
     display: flex;
-        /* Вирівнювання елементів горизонтально */
+       
     align-items: center;
-        /* Вирівнювання елементів по вертикалі */
+        
     gap: 16px;
-        /* Відстань між полем введення і кнопкою */
+       
 }
 
 .subscribe-form input::placeholder {
