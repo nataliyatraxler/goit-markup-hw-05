@@ -873,9 +873,11 @@ img {
 }
 .backdrop {
     position: fixed;
-    
+    z-index: 999;
     inset: 0;
-   
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease-in-out;
     
    
     background-color: rgba(46, 47, 66, 0.4)
@@ -883,6 +885,8 @@ img {
 
 .backdrop.is-open {
     display: flex;
+    opacity: 1;
+    pointer-events: auto ;
     
 }
 
@@ -957,15 +961,7 @@ img {
     cursor: pointer;
     padding: 0;
 
-    svg {
-      width: 8px;
-      height: 8px;
     
-    
-
-        
-
- }
 }
 
 .close-icon {
