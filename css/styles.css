@@ -1019,7 +1019,6 @@ img {
     
     text-align: left;
     margin-bottom: 8px;
-    height: 40px
 }
 
 .modal-form .form-group label {
@@ -1066,7 +1065,7 @@ img {
 .input-wrapper input:focus+.icon,
 .input-wrapper input:valid+.icon {
     fill: #4d5ae5;
-}
+
 
 
 .input-wrapper input:focus,
@@ -1123,7 +1122,7 @@ img {
 
 
 
-.modal-form .form-group input,
+
 .modal-form .form-group textarea {
     width: 100%;
     padding: 8px 16px;
