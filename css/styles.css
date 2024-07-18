@@ -1069,7 +1069,7 @@ img {
 .input-wrapper input:valid+.icon {
     fill: #4d5ae5;
 
-
+}
 
 .input-wrapper input:focus,
 .input-wrapper textarea:focus {
@@ -1215,5 +1215,4 @@ img {
 .modal-submit-button:focus {
     background-color: #404bbf;
     border: none;
-}
 }
