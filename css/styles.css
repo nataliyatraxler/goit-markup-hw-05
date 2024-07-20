@@ -1069,6 +1069,10 @@ img {
 
 }
 
+.input-wrapper {
+    position: relative;
+}
+
 .input-wrapper input {
     padding-left: 40px;
     width: 100%;
