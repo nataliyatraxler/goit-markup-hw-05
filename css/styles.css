@@ -818,7 +818,7 @@ border-radius: 2px;
     border: none;
     fill: #f4f4fd;
 }
-.label-text {
+.checkbox-link{
   color: #4d5ae5;
   text-decoration: underline;
 }
