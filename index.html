@@ -384,21 +384,20 @@
                         </svg>
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group-textarea">
                     <label class="modal-label" for="user-comment">Comment</label>
                     <textarea id="user-comment" name="user-comment" class="textarea-input" placeholder="Text input"
                         required></textarea>
                 </div>
-                <div class="form-group checkbox-group">
-                    <input type="checkbox" value="true" id="user-privacy" class="visually-hidden" name="user-privacy"
+                <div class="checkbox-group">
+                    <input type="checkbox" value="true" id="user-privacy" class="visually-hidden input-checkbox" name="user-privacy"
                         required>
-                    <span class="checkbox-icon">
-                        <svg class="icon-vector" width="10" height="8">
-                            <use href="./images/icons.svg#checkbox"></use>
-                        </svg>
-                    </span>
                     <label for="user-privacy" class="label-text">
-                        I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+                        <span class="checkbox-icon">
+                            <svg class="icon-vector" width="10" height="8">
+                                <use href="./images/icons.svg#icon-checkbox"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the <a href="#">Privacy Policy</a>
                     </label>
                 </div>
                 <button type="submit" class="modal-submit-button">Send</button>
